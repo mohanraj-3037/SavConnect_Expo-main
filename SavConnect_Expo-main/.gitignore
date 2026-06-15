@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Expo / Frontend builds
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds & keys
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/android/.cxx/
+**/android/local.properties
+**/ios/build/
+**/ios/Pods/
+
+# Python / Backend environment & caches
+.venv/
+backend/venv/
+__pycache__/
+backend/__pycache__/
+*.pyc
+
+# Local environments & secrets
+.env
+.env*.local
+backend/.env
+frontend/.env

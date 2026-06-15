@@ -1,0 +1,33 @@
+{
+  "name": "savconnect-testing-suite",
+  "version": "1.0.0",
+  "description": "Comprehensive E2E testing suite for SavConnect Expo application — Selenium (Web), Appium (Mobile), and Excel Reporting",
+  "main": "run-tests.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 --recursive selenium/tests/*.test.js --reporter json --reporter-option output=reports/results.json --exit",
+    "test:selenium": "mocha --timeout 60000 --recursive selenium/tests/*.test.js --exit",
+    "test:appium": "mocha --timeout 120000 --recursive appium/tests/*.test.js --exit",
+    "test:api": "mocha --timeout 30000 selenium/tests/15-api-health.test.js selenium/tests/16-api-opportunities.test.js selenium/tests/17-api-profiles.test.js selenium/tests/18-api-applications.test.js selenium/tests/19-api-recommendations.test.js selenium/tests/20-api-validation.test.js --exit",
+    "report": "node run-tests.js --report-only",
+    "run:all": "node run-tests.js"
+  },
+  "dependencies": {
+    "chai": "^4.5.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "mocha": "^11.1.0",
+    "node-fetch": "^2.7.0",
+    "selenium-webdriver": "^4.27.0",
+    "webdriverio": "^9.4.5"
+  },
+  "keywords": [
+    "selenium",
+    "appium",
+    "testing",
+    "e2e",
+    "savconnect"
+  ],
+  "author": "SavConnect QA",
+  "license": "MIT"
+}

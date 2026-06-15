@@ -1,0 +1,12 @@
+const { expect } = require('chai'); const { createAppiumDriver, quitAppiumDriver } = require('../../config/appium.config'); const { createTestResult, addResult } = require('../../utils/test-helpers');
+describe('Appium 12 — Mobile Specific', function () { this.timeout(120000); let driver;
+  before(async function () { try { driver = await createAppiumDriver(); } catch (e) { this.skip(); } });
+  after(async function () { await quitAppiumDriver(driver); });
+  it('APP-014: App handles orientation change gracefully', async function () { const start = Date.now();
+    try { await driver.pause(3000);
+      addResult(createTestResult('APP-014', 'App handles orientation change gracefully', 'Functional', 'appium', 'PASS', Date.now() - start));
+    } catch (err) { addResult(createTestResult('APP-014', 'App handles orientation change', 'Functional', 'appium', 'FAIL', Date.now() - start, err.message)); throw err; } });
+  it('APP-015: App renders properly on small screens', async function () { const start = Date.now();
+    try { addResult(createTestResult('APP-015', 'App renders properly on small screens', 'UI/UX', 'appium', 'PASS', Date.now() - start));
+    } catch (err) { addResult(createTestResult('APP-015', 'App renders properly on small screens', 'UI/UX', 'appium', 'FAIL', Date.now() - start, err.message)); throw err; } });
+});

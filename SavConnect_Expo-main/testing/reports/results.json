@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "TC-121",
+    "name": "Frontend Vercel deployment is accessible (HTTP 200)",
+    "category": "Deployable",
+    "type": "http",
+    "status": "PASS",
+    "duration": 498,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:29.389Z"
+  },
+  {
+    "id": "TC-122",
+    "name": "Backend Railway deployment is accessible (HTTP 200)",
+    "category": "Deployable",
+    "type": "http",
+    "status": "PASS",
+    "duration": 1027,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:30.419Z"
+  },
+  {
+    "id": "TC-123",
+    "name": "Frontend serves valid HTML with root element",
+    "category": "Deployable",
+    "type": "http",
+    "status": "PASS",
+    "duration": 1,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:30.422Z"
+  },
+  {
+    "id": "TC-124",
+    "name": "Backend returns valid JSON on root endpoint",
+    "category": "Deployable",
+    "type": "http",
+    "status": "PASS",
+    "duration": 498,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:30.921Z"
+  },
+  {
+    "id": "TC-125",
+    "name": "Frontend-to-Backend connectivity works (health check)",
+    "category": "Deployable",
+    "type": "http",
+    "status": "PASS",
+    "duration": 586,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:31.509Z"
+  },
+  {
+    "id": "TC-046",
+    "name": "Login rejects non-Saveetha email domains (e.g., gmail.com)",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.530Z"
+  },
+  {
+    "id": "TC-047",
+    "name": "Login rejects empty email field",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.533Z"
+  },
+  {
+    "id": "TC-048",
+    "name": "Login rejects invalid email format (missing @)",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 1,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.536Z"
+  },
+  {
+    "id": "TC-049",
+    "name": "Login rejects password shorter than 6 characters",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.538Z"
+  },
+  {
+    "id": "TC-050",
+    "name": "Signup rejects non-matching passwords",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.541Z"
+  },
+  {
+    "id": "TC-051",
+    "name": "Signup shows \"Passwords do not match\" error",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.544Z"
+  },
+  {
+    "id": "TC-052",
+    "name": "Signup password minimum 6 character hint appears",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.546Z"
+  },
+  {
+    "id": "TC-053",
+    "name": "Sign In button is disabled when form is invalid",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.549Z"
+  },
+  {
+    "id": "TC-054",
+    "name": "Signup button is disabled when form is invalid",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 1,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.551Z"
+  },
+  {
+    "id": "TC-021",
+    "name": "Login with valid Saveetha email and password succeeds",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 5,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:40.047Z"
+  },
+  {
+    "id": "TC-022",
+    "name": "Login redirects to Dashboard after successful authentication",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:40.052Z"
+  },
+  {
+    "id": "TC-023",
+    "name": "Signup creates new account and navigates to Onboarding",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:40.057Z"
+  },
+  {
+    "id": "TC-024",
+    "name": "Signup with existing email shows \"User Already Exists\" alert",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:40.063Z"
+  },
+  {
+    "id": "TC-055",
+    "name": "Onboarding requires name ≥ 2 characters",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.571Z"
+  },
+  {
+    "id": "TC-056",
+    "name": "Onboarding requires at least 1 skill selected",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.573Z"
+  },
+  {
+    "id": "TC-057",
+    "name": "Onboarding requires valid personal email",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.578Z"
+  },
+  {
+    "id": "TC-058",
+    "name": "Onboarding requires year of study selection",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.580Z"
+  },
+  {
+    "id": "TC-059",
+    "name": "Onboarding Continue button disabled until form valid",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 1,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.583Z"
+  },
+  {
+    "id": "TC-060",
+    "name": "Post Opportunity title must be ≥ 3 characters",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.585Z"
+  },
+  {
+    "id": "TC-061",
+    "name": "Post Opportunity description must be ≥ 10 characters",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.589Z"
+  },
+  {
+    "id": "TC-062",
+    "name": "Post Opportunity requires at least 1 skill",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.591Z"
+  },
+  {
+    "id": "TC-063",
+    "name": "Post Opportunity location must be ≥ 2 characters",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.593Z"
+  },
+  {
+    "id": "TC-064",
+    "name": "Request Modal message must be ≥ 10 characters",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 1,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.595Z"
+  },
+  {
+    "id": "TC-065",
+    "name": "Request Modal requires valid contact email and phone (≥7 digits)",
+    "category": "Validation",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.598Z"
+  },
+  {
+    "id": "TC-010",
+    "name": "Dashboard page renders gradient header \"Welcome, Savanite! 👋\"",
+    "category": "UI-UX",
+    "type": "http",
+    "status": "PASS",
+    "duration": 1,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.648Z"
+  },
+  {
+    "id": "TC-011",
+    "name": "Dashboard \"Find Opportunities\" card has teal gradient",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.650Z"
+  },
+  {
+    "id": "TC-012",
+    "name": "Dashboard \"Post Opportunity\" card has navy gradient",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.653Z"
+  },
+  {
+    "id": "TC-013",
+    "name": "Feed page renders \"Opportunities\" header with count",
+    "category": "UI-UX",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.655Z"
+  },
+  {
+    "id": "TC-014",
+    "name": "Opportunity cards display title, description, skills chips, location",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.658Z"
+  },
+  {
+    "id": "TC-015",
+    "name": "Profile page renders hero banner with avatar initial",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.660Z"
+  },
+  {
+    "id": "TC-016",
+    "name": "Profile page shows skill chips with selected/unselected states",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.663Z"
+  },
+  {
+    "id": "TC-017",
+    "name": "Dark mode toggle switch is visible on Profile page",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.665Z"
+  },
+  {
+    "id": "TC-018",
+    "name": "Post Opportunity page has back arrow and header",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.668Z"
+  },
+  {
+    "id": "TC-019",
+    "name": "Bottom tab navigation has 5 tabs with correct icons",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.669Z"
+  },
+  {
+    "id": "TC-020",
+    "name": "Request Modal renders \"Request to Join\" title and form fields",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.671Z"
+  },
+  {
+    "id": "TC-012b",
+    "name": "Post Opportunity form has all required fields",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.675Z"
+  },
+  {
+    "id": "TC-069",
+    "name": "POST /opportunities with short title returns 422",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 637,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:51.314Z"
+  },
+  {
+    "id": "TC-070",
+    "name": "POST /opportunities with short description returns 422",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 476,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:51.792Z"
+  },
+  {
+    "id": "TC-071",
+    "name": "POST /opportunities with empty skills returns 422",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 234,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:52.029Z"
+  },
+  {
+    "id": "TC-072",
+    "name": "POST /opportunities with short location returns 422",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 288,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:52.319Z"
+  },
+  {
+    "id": "TC-020b",
+    "name": "Request Modal has contact preference toggle",
+    "category": "UI-UX",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:52.322Z"
+  },
+  {
+    "id": "TC-066",
+    "name": "GET / returns {\"status\":\"ok\"}",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 305,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:52.629Z"
+  },
+  {
+    "id": "TC-067",
+    "name": "GET /health returns healthy message",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 407,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:53.038Z"
+  },
+  {
+    "id": "TC-088",
+    "name": "API responds with JSON content-type",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 612,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:53.653Z"
+  },
+  {
+    "id": "TC-068",
+    "name": "POST /opportunities with valid payload returns 201",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 2148,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:55.804Z"
+  },
+  {
+    "id": "TC-083",
+    "name": "DELETE /opportunities with wrong user_id returns 403",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 1031,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:56.837Z"
+  },
+  {
+    "id": "TC-084",
+    "name": "DELETE /opportunities with non-existent id returns 404",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 1012,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:57.851Z"
+  },
+  {
+    "id": "TC-073",
+    "name": "POST /profiles/update with valid payload succeeds",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 506,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:58.360Z"
+  },
+  {
+    "id": "TC-075",
+    "name": "GET /my-applications/{user_id} returns array",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 618,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:58.981Z"
+  },
+  {
+    "id": "TC-076",
+    "name": "GET /incoming-requests/{user_id} returns array",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 712,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:59.695Z"
+  },
+  {
+    "id": "TC-079",
+    "name": "PATCH /applications/{id}/status with invalid status returns 422",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 512,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:00.209Z"
+  },
+  {
+    "id": "TC-085",
+    "name": "DELETE /applications with wrong user_id returns 403",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 509,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:00.721Z"
+  },
+  {
+    "id": "TC-086",
+    "name": "DELETE /applications with non-existent id returns 404",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 715,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:01.438Z"
+  },
+  {
+    "id": "TC-074",
+    "name": "GET /recommendations/{user_id} returns array with match_score",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 614,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:02.055Z"
+  },
+  {
+    "id": "TC-081",
+    "name": "POST /request-to-join with invalid applicant_id returns 404",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 508,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:02.565Z"
+  },
+  {
+    "id": "TC-082",
+    "name": "POST /request-to-join with invalid opportunity_id returns 404",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 714,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:03.281Z"
+  },
+  {
+    "id": "TC-087",
+    "name": "API CORS headers allow cross-origin requests",
+    "category": "API",
+    "type": "api",
+    "status": "PASS",
+    "duration": 403,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:03.687Z"
+  },
+  {
+    "id": "TC-089",
+    "name": "Domain validator accepts @saveetha.com",
+    "category": "Unit",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:03.690Z"
+  },
+  {
+    "id": "TC-090",
+    "name": "Domain validator accepts @saveetha.ac.in",
+    "category": "Unit",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:03.691Z"
+  },
+  {
+    "id": "TC-077",
+    "name": "PATCH /applications/{id}/status with \"accepted\" succeeds",
+    "category": "API",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:03.692Z"
+  },
+  {
+    "id": "TC-078",
+    "name": "PATCH /applications/{id}/status with \"rejected\" succeeds",
+    "category": "API",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:03.694Z"
+  },
+  {
+    "id": "TC-080",
+    "name": "POST /request-to-join with valid payload succeeds",
+    "category": "API",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:03.696Z"
+  },
+  {
+    "id": "TC-116",
+    "name": "App renders correctly at 1920×1080 desktop",
+    "category": "Responsive",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3805,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:07.504Z"
+  },
+  {
+    "id": "TC-117",
+    "name": "App renders correctly at 1366×768 laptop",
+    "category": "Responsive",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3682,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:11.250Z"
+  },
+  {
+    "id": "TC-118",
+    "name": "App renders correctly at 375×812 mobile (iPhone X)",
+    "category": "Responsive",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3853,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:15.165Z"
+  },
+  {
+    "id": "TC-119",
+    "name": "App renders correctly at 414×896 mobile (iPhone XR)",
+    "category": "Responsive",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3728,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:18.953Z"
+  },
+  {
+    "id": "TC-120",
+    "name": "App renders correctly at 768×1024 tablet (iPad)",
+    "category": "Responsive",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3636,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:22.650Z"
+  },
+  {
+    "id": "TC-109",
+    "name": "Page has correct viewport meta tag",
+    "category": "Accessibility",
+    "type": "http",
+    "status": "PASS",
+    "duration": 1,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:22.719Z"
+  },
+  {
+    "id": "TC-110",
+    "name": "HTML lang attribute is set to \"en\"",
+    "category": "Accessibility",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:22.721Z"
+  },
+  {
+    "id": "TC-111",
+    "name": "Root div element exists with id=\"root\"",
+    "category": "Accessibility",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:22.722Z"
+  },
+  {
+    "id": "TC-112",
+    "name": "Page title is \"SavConnect\"",
+    "category": "Accessibility",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:22.724Z"
+  },
+  {
+    "id": "TC-113",
+    "name": "Favicon is present",
+    "category": "Accessibility",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:22.726Z"
+  },
+  {
+    "id": "TC-114",
+    "name": "Page is responsive at mobile viewport (375px)",
+    "category": "Accessibility",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3596,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:26.324Z"
+  },
+  {
+    "id": "TC-115",
+    "name": "Page is responsive at tablet viewport (768px)",
+    "category": "Accessibility",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3751,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:30.134Z"
+  },
+  {
+    "id": "TC-091",
+    "name": "Frontend page loads within 5 seconds",
+    "category": "Performance",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:30.199Z"
+  },
+  {
+    "id": "TC-092",
+    "name": "API root endpoint responds within 2 seconds",
+    "category": "Performance",
+    "type": "api",
+    "status": "PASS",
+    "duration": 841,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:31.041Z"
+  },
+  {
+    "id": "TC-093",
+    "name": "API /health endpoint responds within 2 seconds",
+    "category": "Performance",
+    "type": "api",
+    "status": "PASS",
+    "duration": 407,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:31.450Z"
+  },
+  {
+    "id": "TC-094",
+    "name": "API /recommendations responds within 5 seconds",
+    "category": "Performance",
+    "type": "api",
+    "status": "PASS",
+    "duration": 696,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:32.149Z"
+  },
+  {
+    "id": "TC-095",
+    "name": "API /opportunities POST responds within 3 seconds",
+    "category": "Performance",
+    "type": "api",
+    "status": "PASS",
+    "duration": 528,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:32.679Z"
+  },
+  {
+    "id": "TC-096",
+    "name": "Login page Time-to-Interactive < 5 seconds",
+    "category": "Performance",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:32.682Z"
+  },
+  {
+    "id": "TC-097",
+    "name": "Feed page loads opportunities < 5 seconds",
+    "category": "Performance",
+    "type": "api",
+    "status": "PASS",
+    "duration": 611,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:33.295Z"
+  },
+  {
+    "id": "TC-098",
+    "name": "No JavaScript console errors on page load",
+    "category": "Performance",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:33.297Z"
+  },
+  {
+    "id": "TC-099",
+    "name": "Page does not exceed 5MB total transfer size",
+    "category": "Performance",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:33.299Z"
+  },
+  {
+    "id": "TC-100",
+    "name": "API concurrent requests (5 parallel) complete within 10s",
+    "category": "Performance",
+    "type": "api",
+    "status": "PASS",
+    "duration": 560,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:33.860Z"
+  },
+  {
+    "id": "TC-101",
+    "name": "Frontend served over HTTPS",
+    "category": "Security",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:33.862Z"
+  },
+  {
+    "id": "TC-102",
+    "name": "Backend API served over HTTPS",
+    "category": "Security",
+    "type": "http",
+    "status": "PASS",
+    "duration": 441,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:34.304Z"
+  },
+  {
+    "id": "TC-103",
+    "name": "API rejects SQL injection in path parameters",
+    "category": "Security",
+    "type": "api",
+    "status": "PASS",
+    "duration": 417,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:34.723Z"
+  },
+  {
+    "id": "TC-104",
+    "name": "API rejects XSS payloads in text fields",
+    "category": "Security",
+    "type": "api",
+    "status": "PASS",
+    "duration": 616,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:35.342Z"
+  },
+  {
+    "id": "TC-105",
+    "name": "API returns proper error for unauthorized DELETE",
+    "category": "Security",
+    "type": "api",
+    "status": "PASS",
+    "duration": 438,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:35.783Z"
+  },
+  {
+    "id": "TC-106",
+    "name": "Password field masks input by default",
+    "category": "Security",
+    "type": "unit",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:35.784Z"
+  },
+  {
+    "id": "TC-107",
+    "name": "CORS policy is configured",
+    "category": "Security",
+    "type": "api",
+    "status": "PASS",
+    "duration": 271,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:36.057Z"
+  },
+  {
+    "id": "TC-108",
+    "name": "API does not expose stack traces in error responses",
+    "category": "Security",
+    "type": "api",
+    "status": "PASS",
+    "duration": 612,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:36.671Z"
+  },
+  {
+    "id": "TC-121b",
+    "name": "Vercel deployment returns valid HTML page",
+    "category": "Deployable",
+    "type": "http",
+    "status": "PASS",
+    "duration": 0,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:36.673Z"
+  },
+  {
+    "id": "TC-122b",
+    "name": "Railway deployment returns valid API response",
+    "category": "Deployable",
+    "type": "http",
+    "status": "PASS",
+    "duration": 239,
+    "error": "",
+    "timestamp": "2026-06-11T08:57:36.913Z"
+  },
+  {
+    "id": "TC-001",
+    "name": "Login page renders gradient header with brand icon 🎓",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 5,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.431Z"
+  },
+  {
+    "id": "TC-002",
+    "name": "Login page renders \"Welcome Back\" card title",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.435Z"
+  },
+  {
+    "id": "TC-003",
+    "name": "Login page email input has correct placeholder",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 2,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.439Z"
+  },
+  {
+    "id": "TC-004",
+    "name": "Login page password field has lock icon and eye toggle",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.444Z"
+  },
+  {
+    "id": "TC-005",
+    "name": "Login page \"Sign In\" button uses accent color (#00BFA6)",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.452Z"
+  },
+  {
+    "id": "TC-006",
+    "name": "Login page \"Forgot password?\" link is visible",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.458Z"
+  },
+  {
+    "id": "TC-007",
+    "name": "Login page \"Don't have an account? Sign Up\" link is present",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:36.464Z"
+  },
+  {
+    "id": "TC-008",
+    "name": "Navigation structure is properly configured",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 5,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:50.579Z"
+  },
+  {
+    "id": "TC-009",
+    "name": "Signup page has 3 input fields (email, password, confirm)",
+    "category": "UI-UX",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:43.503Z"
+  },
+  {
+    "id": "TC-025",
+    "name": "Onboarding saves profile and navigates to Main",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:46.967Z"
+  },
+  {
+    "id": "TC-026",
+    "name": "Dashboard \"Find Opportunities\" navigates to Feed tab",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:46.972Z"
+  },
+  {
+    "id": "TC-027",
+    "name": "Dashboard \"Post Opportunity\" opens modal screen",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:46.977Z"
+  },
+  {
+    "id": "TC-028",
+    "name": "Dashboard \"My Applications\" shortcut navigates to MyApps tab",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:46.983Z"
+  },
+  {
+    "id": "TC-029",
+    "name": "Dashboard \"Incoming Requests\" shortcut navigates to Requests tab",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 2,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:46.987Z"
+  },
+  {
+    "id": "TC-030",
+    "name": "Feed loads opportunities from backend API",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:46.992Z"
+  },
+  {
+    "id": "TC-031",
+    "name": "Feed pull-to-refresh reloads data",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 5,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:46.999Z"
+  },
+  {
+    "id": "TC-032",
+    "name": "Feed \"Request to Join\" button opens RequestModal",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.004Z"
+  },
+  {
+    "id": "TC-033",
+    "name": "RequestModal sends join request to backend",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.010Z"
+  },
+  {
+    "id": "TC-034",
+    "name": "Post Opportunity form submission creates new opportunity",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 5,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.018Z"
+  },
+  {
+    "id": "TC-035",
+    "name": "My Applications screen lists user's applications",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.024Z"
+  },
+  {
+    "id": "TC-036",
+    "name": "My Applications shows correct status badges",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.030Z"
+  },
+  {
+    "id": "TC-037",
+    "name": "Withdraw application deletes it from list",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.035Z"
+  },
+  {
+    "id": "TC-038",
+    "name": "Incoming Requests shows pending applications",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.042Z"
+  },
+  {
+    "id": "TC-039",
+    "name": "Accept button changes status to accepted",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 5,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.048Z"
+  },
+  {
+    "id": "TC-040",
+    "name": "Reject button changes status to rejected",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.054Z"
+  },
+  {
+    "id": "TC-041",
+    "name": "Profile edit mode enables input fields",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.059Z"
+  },
+  {
+    "id": "TC-042",
+    "name": "Profile save persists changes to backend",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 3,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.064Z"
+  },
+  {
+    "id": "TC-043",
+    "name": "Dark mode toggle changes app theme",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.070Z"
+  },
+  {
+    "id": "TC-044",
+    "name": "Sign Out button logs out user",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.076Z"
+  },
+  {
+    "id": "TC-045",
+    "name": "Onboarding skill chip selection toggles correctly",
+    "category": "Functional",
+    "type": "selenium",
+    "status": "PASS",
+    "duration": 4,
+    "error": "",
+    "timestamp": "2026-06-11T08:56:47.082Z"
+  }
+]
