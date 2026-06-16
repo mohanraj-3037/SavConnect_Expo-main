@@ -1,0 +1,31 @@
+name: Selenium Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  selenium-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install frontend dependencies
+      working-directory: ./frontend
+      run: npm install
+
+    - name: Install selenium test dependencies
+      working-directory: ./testing
+      run: npm install
+
+    - name: Run Selenium tests
+      working-directory: ./testing
+      run: npm test
